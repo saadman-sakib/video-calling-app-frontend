@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="room_id" type="text">
+    <button id="join"> Start A Meeting </button>
+
+
+    <div>
+        <video muted id="local-video" autoplay></video>
+    </div>
+
+
+    <div>
+        <video id="remote-video" autoplay></video>
+    </div>
+
+    <script src="https://cdn.socket.io/3.1.3/socket.io.min.js" integrity="sha384-cPwlPLvBTa3sKAgddT6krw0cJat7egBga3DJepJyrLl4Q9/5WLra3rrnMcyTyOnh" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
